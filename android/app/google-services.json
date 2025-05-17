@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "296006357106",
+    "project_id": "sou9-nft",
+    "storage_bucket": "sou9-nft.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296006357106:android:52d77ffd394c843262f2eb",
+        "android_client_info": {
+          "package_name": "com.mycompany.ffenterpriseecomm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPCU9Iu8-E7h_omLi7zbVJIQ4db912eX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
