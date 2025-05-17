@@ -533,8 +533,8 @@ class _MainHomePageWidgetState extends State<MainHomePageWidget> {
                                         ActiveAuctionsWidget.routeName);
                                   },
                                   text: 'Auctions',
-                                  icon: Icon(
-                                    Icons.shopping_bag,
+                                  icon: FaIcon(
+                                    FontAwesomeIcons.gavel,
                                     color: Colors.white,
                                     size: 15.0,
                                   ),
@@ -563,8 +563,8 @@ class _MainHomePageWidgetState extends State<MainHomePageWidget> {
                                         .pushNamed(MyArtworksWidget.routeName);
                                   },
                                   text: 'My Artworks',
-                                  icon: Icon(
-                                    Icons.shopping_bag,
+                                  icon: FaIcon(
+                                    FontAwesomeIcons.image,
                                     color: Colors.white,
                                     size: 15.0,
                                   ),
@@ -598,8 +598,8 @@ class _MainHomePageWidgetState extends State<MainHomePageWidget> {
                                     context.pushNamed(BlogsWidget.routeName);
                                   },
                                   text: 'Blogs',
-                                  icon: Icon(
-                                    Icons.add_photo_alternate,
+                                  icon: FaIcon(
+                                    FontAwesomeIcons.solidNewspaper,
                                     color: Colors.white,
                                     size: 15.0,
                                   ),
@@ -627,8 +627,8 @@ class _MainHomePageWidgetState extends State<MainHomePageWidget> {
                                     print('Button pressed ...');
                                   },
                                   text: 'Raffles',
-                                  icon: Icon(
-                                    Icons.person,
+                                  icon: FaIcon(
+                                    FontAwesomeIcons.gift,
                                     color: Colors.white,
                                     size: 15.0,
                                   ),
@@ -682,39 +682,6 @@ class _MainHomePageWidgetState extends State<MainHomePageWidget> {
                               ),
                           elevation: 2.0,
                           borderRadius: BorderRadius.circular(12.0),
-                        ),
-                      ),
-                      Padding(
-                        padding:
-                            EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
-                        child: FFButtonWidget(
-                          onPressed: () async {
-                            context.pushNamed(
-                                AffichageArtworkTestTradev2Widget.routeName);
-                          },
-                          text: 'test trade',
-                          icon: FaIcon(
-                            FontAwesomeIcons.store,
-                            color: Colors.white,
-                            size: 15.0,
-                          ),
-                          options: FFButtonOptions(
-                            width: 150.0,
-                            height: 60.0,
-                            padding: EdgeInsets.all(8.0),
-                            iconPadding: EdgeInsetsDirectional.fromSTEB(
-                                0.0, 0.0, 0.0, 0.0),
-                            color: FlutterFlowTheme.of(context).tertiary,
-                            textStyle: FlutterFlowTheme.of(context)
-                                .titleSmall
-                                .override(
-                                  font: FlutterFlowTheme.of(context).titleSmall,
-                                  color: Colors.white,
-                                  letterSpacing: 0.0,
-                                ),
-                            elevation: 2.0,
-                            borderRadius: BorderRadius.circular(12.0),
-                          ),
                         ),
                       ),
                     ],
